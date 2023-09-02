@@ -1,0 +1,101 @@
+/* Fondo */
+body {
+	background-color: #F5DEB3;
+  position: absolute;
+  }
+  
+  /* Barra de navegación */
+  .navbar {
+	background-color: #050505;
+  }
+  
+  .navbar-brand, .navbar-nav .nav-link {
+	color: #080808 !important;
+  }
+  
+  /* Encabezado */
+  h1 {
+	color: #2E8B57;
+  }
+  
+  /* Texto */
+  p {
+	color: #333;
+  }
+  
+  /* Botón */
+  .btn-campo {
+	background-color: #8FBC8F;
+	color: #FFF;
+	border-color: #8FBC8F;
+  }
+  
+  .btn-campo:hover {
+	background-color: #2E8B57;
+	color: #FFF;
+	border-color: #2E8B57;
+  }
+  
+  body {
+    background-color: #d8e7df;
+    background-size: cover;
+  	background-repeat: no-repeat;
+
+  }
+
+  
+  #h1cc {
+    position: relative;
+    top: -120px;
+	left: 200px;
+  }
+  
+#navprin {
+  position: relative;
+  top: -180px;
+  width: 380px;
+  left: 700px;
+  border-radius: 10px;
+}
+
+.navbar navbar-expand navbar-light bg-light {
+  display: flexbox;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+#h1indexg {
+  position: relative;
+  top: -100px;
+  left: 300px;
+  color: #080808;
+
+}
+
+#imgasena {
+  position: relative;
+  left: 320px;
+  top: -50px;
+}
+
+.boton-flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(243, 9, 9);
+  color: rgb(243, 247, 248);
+  padding: 10px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 12px;
+}
+
+@media (max-width: 767px) {
+  .boton-flotante {
+    bottom: auto;
+    top: 20px;
+    right: 20px;
+  }
+}
+ 

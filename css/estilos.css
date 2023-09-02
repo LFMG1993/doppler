@@ -1,0 +1,293 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F1F1F;
+    color: #FFF;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #FFF;
+  }
+  
+  a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  /* Estilos para la barra de navegación */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-left: 40px;
+    font-size: 18px;
+  }
+  
+  /* Estilos para la sección "Sobre mí" */
+  .col-lg-3 {
+    border-right: 1px solid #FFF;
+  }
+  
+  h2:first-of-type {
+    margin-top: 100;
+  }
+  
+  img {
+    border-radius: 10%;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  
+  .col-lg-6 {
+    padding: 0px;
+  }
+  
+  .card {
+
+    border: none;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.1);
+  }
+  
+  .card-img-top {
+    border-radius: 20px 20px 0 0;
+  }
+  
+  .card-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #6EC1E4;
+    border-color: #6EC1E4;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+    position:relative;
+    left: 400px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #FFF;
+    color: #6EC1E4;
+    margin-top: 5px;
+  }
+
+  #buttoncontact {
+
+position: absolute;
+top: 350px;
+left: 45px;
+  }
+  
+  
+  .col-lg-3:last-of-type {
+    border-left: 1px solid #FFF;
+  }
+  
+  form {
+    margin-top: 40px;
+  }
+  
+  .form-group label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .form-control {
+    border-radius: 20px;
+    border: none;
+    background-color: #222;
+    color: #FFF;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  .btn-secondary {
+    background-color: #FFF;
+    border-color: #FFF;
+    color: #6EC1E4;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #6EC1E4;
+    color: #FFF;
+  }
+
+  body {
+    background-color: #0a0a0a;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  #contacto {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  html,
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.card-img-top {
+    background-color: #FFF;
+    border-radius: 20px;
+}
+
+#gif1 {
+opacity: 1.0;
+position: relative;
+left: 100px;
+}
+
+#gif22 {
+position: relative;
+left: 15px;
+}
+
+#t2 {
+position: relative;
+left: 275px;
+
+}
+
+#t22 {
+position: relative;
+left: 220px;
+
+}
+
+#myBtntop {
+  display: none; /* Ocultar el botón inicialmente */
+  position: fixed; /* Fijar el botón en la pantalla */
+  bottom: 20px; /* Ubicar el botón en la parte inferior de la pantalla */
+  right: 30px; /* Ubicar el botón a la derecha de la pantalla */
+  z-index: 99; /* Establecer el orden de apilamiento para que el botón esté encima del contenido */
+  font-size: 18px; /* Tamaño de la fuente del botón */
+  border: none; /* Eliminar el borde del botón */
+  outline: none; /* Eliminar el borde de enfoque del botón */
+  background-color: red; /* Color de fondo del botón */
+  color: white; /* Color de texto del botón */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima del botón */
+  padding: 15px; /* Añadir un poco de espacio alrededor del botón */
+  border-radius: 10px; /* Agregar bordes redondeados al botón */
+}
+
+#myBtn:hover {
+  background-color: #555; 
+}
+
+
+#t1 {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    
+}
+
+.justificado {
+
+    text-align: justify;
+}
+
+.contenedor-titulo {
+    display: flex;
+  }
+  
+.imglogo1 {
+    float: right; 
+    margin-right: 80px; 
+  }
+  
+  #h1cc {
+    position: relative;
+    top: 22px;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .sidebar button {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  #buttoniot {
+    position: relative;
+    left: 100px;
+  }
+
+  footer {
+    background-color: #353333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    width: 100vw;
+  }
+  
